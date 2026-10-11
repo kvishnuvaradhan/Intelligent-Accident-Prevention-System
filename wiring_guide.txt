@@ -1,0 +1,16 @@
+WIRING GUIDE — for the starter code
+
+HC-SR04 (if 5V-compatible):
+- VCC -> Arduino 5V
+- GND -> Arduino GND
+- TRIG -> digital pin 9
+- ECHO -> digital pin 10
+
+Buzzer:
+- Signal -> digital pin 6 (use a suitable driver if the buzzer requires more current)
+- GND -> Arduino GND
+
+LED:
+- Arduino Uno built-in LED uses pin 13. For an external LED, use a current-limiting resistor.
+
+Verify the datasheets and your actual board voltage before wiring. This is an educational prototype only.
